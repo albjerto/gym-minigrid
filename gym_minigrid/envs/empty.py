@@ -67,7 +67,7 @@ class EmptyEnv16x16(EmptyEnv):
 
 class EmptyRandomEnv16x16(EmptyEnv):
     def __init__(self):
-        super().__init__(size=16, agent_start_pos=True)
+        super().__init__(size=16, agent_start_pos=None)
 
 register(
     id='MiniGrid-Empty-5x5-v0',
